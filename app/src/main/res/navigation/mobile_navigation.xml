@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_prepare">
+
+    <fragment
+        android:id="@+id/nav_prepare"
+        android:name="com.example.maitreapp.ui.prepare.PrepareFragment"
+        android:label="@string/Prepare"
+        tools:layout="@layout/fragment_prepare" />
+
+    <fragment
+        android:id="@+id/nav_addfood"
+        android:name="com.example.maitreapp.ui.addfood.addFoodFragment"
+        android:label="@string/addFood"
+        tools:layout="@layout/fragment_addfood" />
+
+    <fragment
+        android:id="@+id/nav_clear"
+        android:name="com.example.maitreapp.ui.clear.ClearFragment"
+        android:label="@string/clear"
+        tools:layout="@layout/fragment_clear" />
+
+    <fragment
+        android:id="@+id/nav_mappa"
+        android:name="com.example.maitreapp.ui.mappa.MappaFragment"
+        android:label="@string/Mappa"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/nav_expose"
+        android:name="com.example.maitreapp.ui.expose.ExposeFragment"
+        android:label="@string/expose"
+        tools:layout="@layout/fragment_expose" />
+
+    <fragment
+        android:id="@+id/nav_consult"
+        android:name="com.example.maitreapp.ui.consult.ConsultFragment"
+        android:label="@string/consult"
+        tools:layout="@layout/fragment_consult" />
+</navigation>

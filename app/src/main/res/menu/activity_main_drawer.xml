@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_prepare"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/Prepare" />
+        <item
+            android:id="@+id/nav_addfood"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/addFood" />
+        <item
+            android:id="@+id/nav_clear"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/clear" />
+        <item
+            android:id="@+id/nav_mappa"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="@string/mappa" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_expose"
+                android:icon="@android:drawable/btn_star"
+                android:title="@string/expose" />
+            <item
+                android:id="@+id/nav_consult"
+                android:icon="@android:drawable/btn_star"
+                android:title="@string/consult" />
+        </menu>
+    </item>
+
+</menu>
